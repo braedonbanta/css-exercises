@@ -12,6 +12,37 @@ img {
   font-weight: 900;
 }
 
+.title-and-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.images-and-description {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.barberry, .chilli, .pepper, .saffron {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+}
+
+.text {
+  text-align: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
